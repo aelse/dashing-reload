@@ -13,7 +13,15 @@ Configuration
 =============
 
 Copy the reload directory to the widgets directory in your dashing
-installation. Include the reload widget in your dashboard.
+installation. Include the reload widget in your dashboard, outside of
+the gridster div.
+
+```html
+<div data-id="reload" data-view="Reload" data-title="Reload" style="display: none"></div>
+```
+
+If you really want to see the countdown you can add it as you would any
+other widget.
 
 ```html
 <li data-row="999" data-col="1" data-sizex="1" data-sizey="1">
@@ -23,3 +31,11 @@ installation. Include the reload widget in your dashboard.
 
 The pre-configured reload interval is 30 minutes. You may set this value
 in reload.coffee
+
+See also
+========
+
+Another author has created the Remote Reload widget which allows you to
+trigger a page reload from an external process. You could use that widget
+along with a dashing job that periodically triggers the reload to achieve
+the same thing provided by this Reload widget.
