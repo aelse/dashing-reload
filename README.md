@@ -4,7 +4,8 @@ dashing-reload
 dashing-reload is a widget for Shopify's dashing framework to cause the
 browser to reload the page periodically. This is done to work around
 problems due to memory utilisation that become apparent after having a
-dashboard loaded for an extended period of time.
+dashboard loaded for an extended period of time. (See
+http://toxaq.com/index.php/2012/12/running-shopifys-dashing-on-a-raspberry-pi/#comment-91)
 
 This repo contains the reload widget that when included in a dashboard
 will automatically cause the browser to reload.
